@@ -5,7 +5,7 @@ const GifList = ({ gifs }) => {
   const gifItems = gifs.map(gif => <GifItem key={gif.id} gif={gif} />);
 
   return (
-    <ul>{gifItems}</ul>
+    <ul className="cont-gifs">{gifItems}</ul>
   );
 };
 

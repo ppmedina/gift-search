@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.cont-gifs {
+  padding-top: 12px;
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gif-solo {
+  margin: 4px;
+  width: 260px;
+}
+
+li {
+  list-style: none;
+  /* background-color: green; */
+}
+
+.buscador {
+  margin-top: 10px;
+  width: 400px;
+  height: 30px;
+  border-radius: 4px;
+  font-size: 20px;
+}
